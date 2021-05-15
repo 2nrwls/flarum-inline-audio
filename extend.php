@@ -16,7 +16,7 @@ use Flarum\Frontend\Document;
 
 return [
     (new Extend\Frontend('forum'))
-        ->content(function (Document $document) { $document->head[] = '<script src="/assets/extensions/zerosonesfun-inline-audio/sm2.js"></script><script src="/assets/extensions/zerosonesfun-inline-audio/inline-player.js"></script><script src="/assets/extensions/zerosonesfun-inline-audio/reboot.js"></script>'; })
+        ->content(function (Document $document) { $document->head[] = '<script src="../assets/extensions/zerosonesfun-inline-audio/sm2.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/inline-player.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/reboot.js"></script>'; })
         ->js(__DIR__.'/js/dist/forum.js')
         ->css(__DIR__.'/resources/less/forum.less'),
     
