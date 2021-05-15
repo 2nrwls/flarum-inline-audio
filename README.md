@@ -19,5 +19,5 @@ composer update zerosonesfun/flarum-inline-audio
 ### Links
 
 - [Packagist](https://packagist.org/packages/zerosonesfun/flarum-inline-audio)
-- [Github](https://github.com/zerosonesfun/flarum-inline-audio
+- [Github](https://github.com/zerosonesfun/flarum-inline-audio)
 - [Web](https://www.wilcosky.com)
