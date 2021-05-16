@@ -4,6 +4,8 @@
 
 A [Flarum](http://flarum.org) extension. Automatically convert audio URLs into minimal inline audio players (makes link play audio on click instead of opening in a new tab). **If you want to display an advanced player with controls, use the [player] BBCode.** This uses a popular JavaScript audio API called SoundManager 2. SoundManager 2 provides simple, reliable cross-platform audio under a single JavaScript API.
 
+![screenshot](https://i.ibb.co/ZKWzwk6/inline.png)
+
 ### Installation
 
 ```sh
