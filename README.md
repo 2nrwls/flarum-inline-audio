@@ -1,8 +1,7 @@
 # Inline Audio
+**Warning: This version is a custom version of the [original](https://github.com/zerosonesfun/flarum-inline-audio). This version will only work if your forum is installed at /forum. (i.e. yoursite.com/forum)
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/zerosonesfun/flarum-inline-audio.svg)](https://packagist.org/packages/zerosonesfun/flarum-inline-audio)
-
-A [Flarum](http://flarum.org) extension. Automatically convert audio URLs into minimal inline audio players (makes link play audio on click instead of opening in a new tab). **If you want to display an advanced player with controls, use the [player] BBCode.** This uses a popular JavaScript audio API called SoundManager 2. SoundManager 2 provides simple, reliable cross-platform audio under a single JavaScript API.
+A [Flarum](http://flarum.org) extension. Automatically convert audio URLs into minimal inline audio players.
 
 ![screenshot](https://i.ibb.co/ZKWzwk6/inline.png)
 
@@ -12,17 +11,17 @@ To use the advanced player you will need to use a BBCode. Here is an example:
 ### Installation
 
 ```sh
-composer require zerosonesfun/flarum-inline-audio
+composer require 2nrwls/flarum-inline-audio:"*"
 ```
 
 ### Updating
 
 ```sh
-composer update zerosonesfun/flarum-inline-audio
+composer update 2nrwls/flarum-inline-audio:"*"
 ```
 
 ### Links
 
-- [Packagist](https://packagist.org/packages/zerosonesfun/flarum-inline-audio)
-- [Github](https://github.com/zerosonesfun/flarum-inline-audio)
+- [Packagist](https://packagist.org/packages/2nrwls/flarum-inline-audio)
+- [Github](https://github.com/2nrwls/flarum-inline-audio)
 - [Web](https://www.wilcosky.com)
