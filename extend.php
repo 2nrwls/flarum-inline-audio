@@ -17,7 +17,7 @@ use s9e\TextFormatter\Configurator;
 
 return [
     (new Extend\Frontend('forum'))
-        ->content(function (Document $document) { $document->head[] = '<script src="../assets/extensions/zerosonesfun-inline-audio/sm2.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/bar-ui.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/inline-player.js"></script><script src="../assets/extensions/zerosonesfun-inline-audio/reboot.js"></script>'; })
+        ->content(function (Document $document) { $document->head[] = '<script src="/forum/assets/extensions/zerosonesfun-inline-audio/sm2.js"></script><script src="/forum/assets/extensions/zerosonesfun-inline-audio/bar-ui.js"></script><script src="/forum/assets/extensions/zerosonesfun-inline-audio/inline-player.js"></script><script src="/forum/assets/extensions/zerosonesfun-inline-audio/reboot.js"></script>'; })
         ->js(__DIR__.'/js/dist/forum.js')
         ->css(__DIR__.'/resources/less/forum.less'),
     
