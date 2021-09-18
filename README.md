@@ -1,5 +1,5 @@
 # Inline Audio
-**Warning: This version is a custom version of the [original](https://github.com/zerosonesfun/flarum-inline-audio). This version will only work if your forum is installed at /forum. (i.e. yoursite.com/forum)
+**Warning: This version is a custom version of the [original](https://github.com/zerosonesfun/flarum-inline-audio). This version will only work if your forum is installed at /forum. (i.e. yoursite.com/forum)**
 
 A [Flarum](http://flarum.org) extension. Automatically convert audio URLs into minimal inline audio players.
 
