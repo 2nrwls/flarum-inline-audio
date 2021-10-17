@@ -3,11 +3,6 @@
 
 A [Flarum](http://flarum.org) extension. Automatically convert audio URLs into minimal inline audio players.
 
-![screenshot](https://i.ibb.co/ZKWzwk6/inline.png)
-
-To use the advanced player you will need to use a BBCode. Here is an example:
-`[player artist=optional title=optional]URL[/player]`
-
 ### Installation
 
 ```sh
